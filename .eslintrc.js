@@ -17,5 +17,7 @@ module.exports = {
             "always",
             { exceptAfterSingleLine: true },
         ],
+        "no-plusplus": "off",
+        "no-restricted-syntax": "off",
     },
 };

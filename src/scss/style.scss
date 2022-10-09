@@ -1,8 +1,6 @@
-html {
-    background-color: green;
-}
-
-.new-style {
-    font-size: 3rem;
-    font-family: sans-serif;
-}
+@use "./global/reset";
+@use "./global/globals";
+@use "./variables/typography";
+@use "./variables/colors";
+@use "./variables/sizes";
+@use "./components/header";
