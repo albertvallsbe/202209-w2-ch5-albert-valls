@@ -1,0 +1,10 @@
+@use "../variables/colors";
+@use "../variables/typography";
+html {
+    font-family: typography.$font-family;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: colors.$main-background;
+}
