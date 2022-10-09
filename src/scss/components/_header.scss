@@ -1,0 +1,18 @@
+@use "../global/globals";
+@use "../variables/sizes";
+@use "../variables/colors";
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: sizes.$header-horizontal-padding sizes.$header-vertical-padding;
+}
+
+h1 {
+    font-size: 4rem;
+    padding: sizes.$header-horizontal-padding sizes.$header-vertical-padding;
+    border: 3px solid colors.$main-white;
+    box-shadow: 0.5rem 0.5rem 1rem colors.$main-black;
+    background: linear-gradient( to left top, colors.$main-background, colors.$secondary-blue);
+}
