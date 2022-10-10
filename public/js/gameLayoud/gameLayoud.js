@@ -6,7 +6,7 @@ const gameLayoud = () => {
     for (let countRows = 0; countRows < rows; countRows++) {
         html += "<tr>";
         for (let countColumns = 0; countColumns < columns; countColumns++) {
-            html += `<td> ${countRows}, ${countColumns}`;
+            html += `<td> ${countRows},${countColumns} `;
             html += "<td>";
         }
         html += "</tr>";
